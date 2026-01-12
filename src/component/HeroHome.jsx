@@ -23,14 +23,10 @@ function HeroHome() {
   }, []);
 
   return (
-    <section className="hero-home min-h-screen relative overflow-hidden flex items-center">
-
-      {/* Mint Wrapper (NEW – invisible, does not affect UI) */}
-
-
+    <section className="hero-home min-h-screen relative overflow-hidden flex items-center pt-50 lg:p-0">
       <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
-          <div className="animate-text text-center lg:text-left mt-30 lg:mt-0">
+          <div className="animate-text text-center lg:text-left mt-10 lg:mt-0">
             <p className="text-lg font-normal tracking-widest uppercase  mb-4" style={{color: "var(--color-w-2)"}}>
               The Taste of Legends
             </p>
