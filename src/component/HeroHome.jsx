@@ -72,28 +72,7 @@ function HeroHome() {
     <section className="hero-home min-h-screen relative overflow-hidden flex items-center">
 
       {/* Mint Wrapper (NEW – invisible, does not affect UI) */}
-      <div
-        ref={mintWrapRef}
-        className="absolute top-24 right-36 hidden lg:block transition-transform duration-200 ease-out"
-      >
-        <img
-          src="https://notica.in/botanica.risingbamboo.com/wp-content/uploads/2024/10/s10-mint-1.png"
-          alt="Mint"
-          className="w-24 animate-mint"
-        />
-      </div>
 
-      {/* Lemon Wrapper (NEW – invisible, does not affect UI) */}
-      <div
-        ref={lemonWrapRef}
-        className="absolute top-44 right-16 hidden lg:block transition-transform duration-200 ease-out"
-      >
-        <img
-          src="https://notica.in/botanica.risingbamboo.com/wp-content/uploads/2024/10/s10-lemmon-2.png"
-          alt="Lemon"
-          className="w-20 animate-lemon"
-        />
-      </div>
 
       <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
@@ -107,6 +86,28 @@ function HeroHome() {
           </div>
 
           <div className="flex items-center justify-center w-full h-full animate-main-img">
+            <div
+              ref={mintWrapRef}
+              className="absolute top-50 right-45 hidden lg:block transition-transform duration-200 ease-out"
+            >
+              <img
+                src="https://notica.in/botanica.risingbamboo.com/wp-content/uploads/2024/10/s10-mint-1.png"
+                alt="Mint"
+                className="w-24 animate-mint"
+              />
+            </div>
+
+            {/* Lemon Wrapper (NEW – invisible, does not affect UI) */}
+            <div
+              ref={lemonWrapRef}
+              className="absolute top-80 right-35 hidden lg:block transition-transform duration-200 ease-out"
+            >
+              <img
+                src="https://notica.in/botanica.risingbamboo.com/wp-content/uploads/2024/10/s10-lemmon-2.png"
+                alt="Lemon"
+                className="w-20 animate-lemon"
+              />
+            </div>
             <img
               src="https://notica.in/botanica.risingbamboo.com/drinks-01/assets/mainhero.png"
               alt="Soda Glasses"
