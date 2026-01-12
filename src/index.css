@@ -8,10 +8,12 @@
 
 :root {
   --color-primary: #365c00;      
+  --color-primary: #ed3338;      
   --color-secondary: #0f172a;   
   --color-accent: #22c55e;   
 
   --bg-m: #eef9e4;
+  --bg-m: #2b0000;
   --bg-sec: #70c000; 
 
   --font-main: "Tinos", serif;

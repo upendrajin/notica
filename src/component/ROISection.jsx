@@ -24,7 +24,7 @@ function ROISection() {
       ref={sectionRef}
       className={`relative w-full py-24 overflow-hidden transition-all duration-700 ${visible ? "roi-visible" : "opacity-0 translate-y-16"
         }`}
-      style={{ backgroundColor: "#e7f4ea" }}
+      style={{ backgroundColor: "var(--bg-m)" }}
     >
       <div className="web-wave"></div>
 

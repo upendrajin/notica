@@ -10,9 +10,9 @@ function Footer() {
       <div className="max-w-5xl mx-auto px-6 py-20 text-center">
 
         <img
-          src="https://notica.in/botanica.risingbamboo.com/drinks-01/assets/notica_small_logo.webp"
+          src="/logo.png"
           alt="Notica Logo"
-          className="mx-auto h-24 mb-3"
+          className="mx-auto h-24 mb-10"
         />
 
         <p className="text-sm font-medium mb-6">

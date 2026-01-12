@@ -26,9 +26,9 @@ const Header = () => {
           <div className="flex items-center justify-between h-[78px]">
 
             <img
-              src="https://notica.in/botanica.risingbamboo.com/drinks-01/assets/notica_small_logo.webp"
+              src="/logo.png"
               alt="Logo"
-              className="w-25 object-contain"
+              className="w-50 object-contain"
             />
 
             <nav className="hidden md:flex items-center gap-10 text-white font-medium">
