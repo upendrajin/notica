@@ -9,14 +9,20 @@
 :root {
   --color-primary: #365c00;      
   --color-primary: #ed3338;      
-  --color-secondary: #0f172a;   
+  --color-primary: #1B211A;      
+  /* --color-secondary: #0f172a;    */
   --color-accent: #22c55e;   
 
   --bg-m: #eef9e4;
-  --bg-m: #2b0000;
+  /* --bg-m: #180000; */
+  --bg-m: #1B211A;
   --bg-sec: #70c000; 
 
   --font-main: "Tinos", serif;
+
+  --color-w-1: #fff;
+  --color-w-2: #bebebe;
+  --color-w-3: #424242;
 
   --radius-sm: 6px;
   --radius-md: 10px;

@@ -58,7 +58,7 @@ function StartupFranchiseKit() {
 
             <div className="max-w-7xl mx-auto px-6">
 
-                <div className="text-center section-header ">
+                <div className="text-center section-header-2 ">
                     <h2 className="text-4xl font-bold mb-2">Startup Franchise Kit</h2>
                     <p>
                         Complete setup by{" "}
@@ -82,7 +82,7 @@ function StartupFranchiseKit() {
                         640: { slidesPerView: 2 },
                         1024: { slidesPerView: 3 },
                     }}
-
+                    className="swiper-2"
                 >
                     {kits.map((item, index) => (
                         <SwiperSlide key={index} style={{

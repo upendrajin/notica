@@ -32,7 +32,7 @@ function CreateReelSection() {
 
       <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
 
-        <div className="text-center section-header mb-6">
+        <div className="text-center section-header-2 mb-6">
           <h2 className="text-4xl font-bold mb-2"> Create a Refreshing Reel!</h2>
           <p>
             Be the sparkle in our soda story! Join the ultimate marketing challenge
@@ -41,12 +41,12 @@ function CreateReelSection() {
           </p>
         </div>
 
-        <button className="btn-1 mb-6">
+        <button className="btn-2 btn-1 mb-6">
           Join the Challenge
         </button>
 
         <div className="flex flex-col items-center mt-6 gap-4">
-          <div className="text-center section-header ">
+          <div className="text-center section-header-2 ">
             <h2 className="text-4xl font-bold mb-2">Need Inspiration?</h2>
             <p>
               Check out top trending reels by our soda lovers and get inspired!

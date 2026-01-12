@@ -50,7 +50,7 @@ function ROISection() {
             className={`w-full lg:w-1/2 mt-12 lg:mt-0 lg:pl-16 flex flex-col justify-center transition-all duration-700 ${visible ? "roi-right-show" : "opacity-0 translate-x-16"
               }`}
           >
-            <div className="text-start section-header">
+            <div className="text-start section-header-2">
               <h2 className="text-4xl font-bold mb-2">
                 Return on Investment <br />
                 <span className="font-semibold">(ROI)</span>
@@ -67,7 +67,7 @@ function ROISection() {
 
             <p className="leading-7 max-w-md mb-7"
               style={{
-                color: "#929292",
+                color: "var(--color-w-2)",
                 fontWeight: "500"
               }}
             >
@@ -76,7 +76,7 @@ function ROISection() {
               deliver strong gross margins for franchise partners.
             </p>
 
-            <p className="text-gray-800 font-medium">
+            <p className="font-medium" style={{color: 'var(--color-w-1)'}}>
               Franchise ROI achieved in{" "}
               <span className="font-bold">6–12 months</span>
             </p>

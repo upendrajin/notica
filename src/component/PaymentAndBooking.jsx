@@ -51,9 +51,7 @@ function PaymentAndBooking() {
             <p>We offer a wide range of services to meet the needs of our customers.</p>
           </div>
 
-          <div className="border rounded-xl p-8 max-w-4xl mx-auto" style={{
-            backgroundColor: "var(--bg-m)"
-          }}>
+          <div className="border rounded-xl p-8 max-w-4xl mx-auto" >
             <ul className="space-y-4 text-gray-700">
               <li><strong>Account Details :</strong> For NEFT / RTGS / IMPS</li>
               <li><strong>Bank Name :</strong> HDFC Bank – Utran, Surat</li>

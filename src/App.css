@@ -4,11 +4,75 @@
 }
 
 .section-header p {
-  color: #929292;
+  color: var(--color-w-3);
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 1px;
   word-spacing: 2px;
+}
+
+.section-header-2 h2 {
+  color: var(--color-w-1);
+  font-family: var(--font-main);
+}
+
+.section-header-2 p {
+  color: var(--color-w-2);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+
+.swiper-pagination {
+  bottom: 0px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: #414141 !important;
+  opacity: 1;
+  border-radius: 50%;
+  transition: all 0.35s ease;
+  margin: 0 6px !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 16px !important;
+  border-radius: 5px !important;
+  background-color: var(--color-primary) !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+}
+
+.swiper-2 .swiper-pagination {
+  bottom: 0px !important;
+}
+
+.swiper-2 .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: var(--color-w-3) !important;
+  opacity: 1;
+  border-radius: 50%;
+  transition: all 0.35s ease;
+  margin: 0 6px !important;
+}
+
+.swiper-2 .swiper-pagination-bullet-active {
+  width: 16px !important;
+  border-radius: 5px !important;
+  background-color: var(--color-w-1) !important;
+}
+
+.swiper-2 .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
 }
 
 .web-wave {
@@ -30,12 +94,17 @@
 
 .btn-1 {
   background-color: var(--color-primary);
-  color: #fff;
+  color: var(--color-w-1);
   font-family: var(--font-main);
   padding: 8px 20px;
   border-radius: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
+}
+
+.btn-2 {
+  background-color: var(--color-w-1);
+  color: var(--color-primary);
 }
 
 .btn-1:hover {
@@ -50,20 +119,20 @@
 }
 
 .nav-link {
-  color: var(--color-primary);
+  color: var(--color-w-1);
   font-size: 20px;
   font-family: var(--font-main);
   transition: 0.2s;
 }
 
 .nav-link:hover {
-  color: var(--color-primary);
+  color: var(--color-w-3);
 }
 
 .social-icon {
   width: 34px;
   height: 34px;
-  background: #ffffff;
+  background: var(--color-w-1);
   color: #000000;
   border-radius: 999px;
   display: flex;
@@ -121,7 +190,7 @@
   font-family: var(--font-main);
   line-height: 1.1;
   font-weight: 800;
-  color: var(--color-primary);
+  color: var(--color-w-1);
 }
 
 @media (max-width: 768px) {
@@ -226,7 +295,7 @@
 
 .service-desc {
   font-size: 14px;
-  color: #929292;
+  color: var(--color-w-3);
   font-weight: 500;
   max-width: 280px;
   margin: 0 auto;
@@ -304,13 +373,13 @@
 .process-item h4 {
   font-size: 20px;
   font-family: var(--font-main);
-  color: var(--color-primary);
+  color: var(--color-w-1);
   font-weight: 700;
 }
 
 .process-item p {
   font-size: 14px;
-  color: #929292;
+  color: var(--color-w-2);
   font-weight: 400;
 }
 
@@ -470,30 +539,6 @@
   transform: translateX(0);
 }
 
-.swiper-pagination {
-  bottom: 0px !important;
-}
-
-.swiper-pagination-bullet {
-  width: 8px;
-  height: 8px;
-  background-color: #414141 !important;
-  opacity: 1;
-  border-radius: 50%;
-  transition: all 0.35s ease;
-  margin: 0 6px !important;
-}
-
-.swiper-pagination-bullet-active {
-  width: 16px !important;
-  border-radius: 5px !important;
-  background-color: var(--color-primary) !important;
-}
-
-.swiper-pagination-bullet {
-  width: 10px;
-  height: 10px;
-}
 
 /* OWNERTRENING */
 .training-visible {
@@ -670,7 +715,7 @@ body {
   content: "";
   flex: 1;
   height: 1px;
-  background: #9ad0a6;
+  background: var(--bg-m);
 }
 
 .payment-card {

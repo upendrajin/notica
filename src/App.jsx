@@ -20,34 +20,6 @@ import ReviewsSection from './component/ReviewsSection'
 import CreateReelSection from './component/CreateReelSection'
 import PaymentAndBooking from './component/PaymentAndBooking'
 
-// function App() {
-//   return (
-//     <>
-//       <Header />
-//       <HeroHome />
-//       <Service />
-//       <Process />
-//       <AboutUs />
-//       <Certificate />
-//       <ROISection />
-//       <ROIProjection />
-//       <StartupFranchiseKit />
-//       <OwnerTraining />
-//       <Help />
-//       <ApplyNow />
-//       <OurProducts />
-//       <FranchiseStory />
-//       <OurLocations />
-//       <ReviewsSection />
-//       <CreateReelSection />
-//       <PaymentAndBooking />
-//       <Footer />
-//     </>
-//   )
-// }
-
-// export default App
-
 function App() {
   return (
     <>

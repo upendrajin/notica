@@ -52,7 +52,7 @@ function Help() {
                         className={`w-full lg:w-1/2 mt-12 lg:mt-0 lg:pl-16 flex flex-col justify-center transition-all duration-700 ${visible ? "roi-right-show" : "opacity-0 translate-x-16"
                             }`}
                     >
-                        <div className="text-start section-header mb-5">
+                        <div className="text-start section-header-2 mb-5">
                             <h2 className="text-4xl font-bold mb-2"> Resolution to Any Query Within 24 Hours</h2>
                             <p> We provide <strong>dedicated helpline support</strong>  exclusive for every
                                 franchise, ensuring your concerns are addressed promptly and efficiently.
@@ -60,17 +60,17 @@ function Help() {
                         </div>
 
                         <div className="flex flex-wrap items-center gap-5 mb-4 w-full">
-                            <span className="flex flex-wrap items-center gap-3 font-semibold text-gray-600">
-                                <span className="text-gray-800 font-medium"><IoCallOutline size={20} style={{ color: "var(--color-primary)" }} /></span>
+                            <span className="flex flex-wrap items-center gap-3 font-semibold" style={{color: "var(--color-w-1)"}}>
+                                <span className="text-gray-800 font-medium"><IoCallOutline size={20} style={{ color: "var(--color-w-1)" }} /></span>
                                 Phone Support
                             </span>
-                            <span className="flex flex-wrap items-center gap-3 font-semibold text-gray-600">
-                                <span className="text-gray-800 font-medium"><FaWhatsapp size={20} style={{ color: "var(--color-primary)" }} /></span>
+                            <span className="flex flex-wrap items-center gap-3 font-semibold" style={{color: "var(--color-w-1)"}}>
+                                <span className="text-gray-800 font-medium"><FaWhatsapp size={20} style={{ color: "var(--color-w-1)" }} /></span>
                                 Phone Support
                             </span>
                         </div>
 
-                        <p className="text-gray-800 font-medium">
+                        <p className="font-medium" style={{color: "var(--color-w-2)"}}>
                             *Working Hours:* 9am to 11pm (Monday to Friday)
                         </p>
                     </div>

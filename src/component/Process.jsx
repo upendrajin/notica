@@ -60,11 +60,7 @@ function Process() {
             <div className="web-wave"></div>
 
             <div className="max-w-7xl mx-auto px-6 pt-28 pb-24">
-                {/* <h2 className="text-4xl font-bold text-center mb-20">
-                    Franchise Application Setup Process
-                </h2> */}
-
-                <div className="text-center section-header mb-16">
+                <div className="text-center section-header-2 mb-16">
                     <h2 className="text-4xl font-bold mb-2">Franchise Application Setup Process</h2>
                     <p>We offer a wide range of services to meet the needs of our customers.</p>
                 </div>
