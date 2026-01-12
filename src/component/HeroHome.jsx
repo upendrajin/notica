@@ -76,7 +76,7 @@ function HeroHome() {
 
       <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
-          <div className="animate-text text-center lg:text-left">
+          <div className="animate-text text-center lg:text-left mt-30 lg:mt-0">
             <p className="text-lg font-bold tracking-widest uppercase text-black opacity-40 mb-4">
               The Taste of Legends
             </p>
@@ -88,7 +88,7 @@ function HeroHome() {
           <div className="flex items-center justify-center w-full h-full animate-main-img">
             <div
               ref={mintWrapRef}
-              className="absolute top-50 right-45 hidden lg:block transition-transform duration-200 ease-out"
+              className="absolute top-10 right-25 lg:top-50 lg:right-45  lg:block transition-transform duration-200 ease-out"
             >
               <img
                 src="https://notica.in/botanica.risingbamboo.com/wp-content/uploads/2024/10/s10-mint-1.png"
@@ -100,7 +100,7 @@ function HeroHome() {
             {/* Lemon Wrapper (NEW – invisible, does not affect UI) */}
             <div
               ref={lemonWrapRef}
-              className="absolute top-80 right-35 hidden lg:block transition-transform duration-200 ease-out"
+              className="absolute top-40 right-15  lg:top-80 lg:right-35 lg:block transition-transform duration-200 ease-out"
             >
               <img
                 src="https://notica.in/botanica.risingbamboo.com/wp-content/uploads/2024/10/s10-lemmon-2.png"
