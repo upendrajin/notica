@@ -76,7 +76,7 @@ function OurLocations() {
 
         <div className="text-center section-header mb-16">
           <h2 className="text-4xl font-bold mb-2">Our Locations</h2>
-          <p>We offer a wide range of services to meet the needs of our customers.</p>
+          <p>We operate across multiple strategic locations to serve customers efficiently.</p>
         </div>
 
         <Swiper

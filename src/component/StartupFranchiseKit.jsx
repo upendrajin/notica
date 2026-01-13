@@ -62,7 +62,7 @@ function StartupFranchiseKit() {
                     <h2 className="text-4xl font-bold mb-2">Startup Franchise Kit</h2>
                     <p>
                         Complete setup by{" "}
-                        <span className="font-semibold text-green-700">NOTICA team</span> is
+                        <span className="font-semibold text-green-700">Mocktail team</span> is
                         also offered in case where you wish to get the interior or exterior
                         setup done by us.
                     </p>

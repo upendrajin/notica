@@ -59,7 +59,7 @@ function ROIProjection() {
         <div className="text-center section-header mb-16">
           <h2 className="text-4xl font-bold mb-2">ROI Projection</h2>
           <p> Projected sales based on our stores. At{" "}
-            <span className="font-semibold text-green-700">Notica</span>, pricing
+            <span className="font-semibold text-green-700">Mocktail</span>, pricing
             maximizes sales, but figures may vary by location.
           </p>
         </div>

@@ -58,7 +58,7 @@ function FranchiseStory() {
 
                 <div className="text-center section-header mb-12">
                     <h2 className="text-4xl font-bold mb-2">Our Soda Franchise Story</h2>
-                    <p>We offer a wide range of services to meet the needs of our customers.</p>
+                    <p>Our story is driven by innovation, strong partnerships, and customer trust.</p>
                 </div>
 
                 <Swiper

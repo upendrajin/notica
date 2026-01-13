@@ -62,7 +62,7 @@ function Process() {
             <div className="max-w-7xl mx-auto px-6 pt-28 pb-24">
                 <div className="text-center section-header-2 mb-16">
                     <h2 className="text-4xl font-bold mb-2">Franchise Application Setup Process</h2>
-                    <p>We offer a wide range of services to meet the needs of our customers.</p>
+                    <p>We provide end-to-end franchise application setup services, ensuring a streamlined, compliant, and efficient onboarding process for our partners.</p>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">

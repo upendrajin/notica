@@ -28,7 +28,7 @@ function AboutUs() {
 
       <div className="text-center section-header mb-16">
         <h2 className="text-4xl font-bold mb-2">Aboute Us</h2>
-        <p>We offer a wide range of services to meet the needs of our customers.</p>
+        <p>We deliver reliable, customer-focused solutions tailored to business needs.</p>
       </div>
 
       <div className="max-w-7xl mx-auto px-6">
