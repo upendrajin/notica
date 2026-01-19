@@ -62,11 +62,11 @@ function Help() {
                         <div className="flex flex-wrap items-center gap-5 mb-4 w-full">
                             <span className="flex flex-wrap items-center gap-3 font-semibold" style={{color: "var(--color-w-1)"}}>
                                 <span className="text-gray-800 font-medium"><IoCallOutline size={20} style={{ color: "var(--color-w-1)" }} /></span>
-                                Phone Support
+                                +91 8469464739
                             </span>
                             <span className="flex flex-wrap items-center gap-3 font-semibold" style={{color: "var(--color-w-1)"}}>
                                 <span className="text-gray-800 font-medium"><FaWhatsapp size={20} style={{ color: "var(--color-w-1)" }} /></span>
-                                Phone Support
+                                +91 8469464739
                             </span>
                         </div>
 

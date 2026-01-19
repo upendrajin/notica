@@ -7,41 +7,45 @@ import "swiper/css/pagination";
 
 const locations = [
   {
-    title: "Ambedkar Chowk Amravati Road, Ner",
-    owner: "Sureshbhai",
-    map: "https://www.google.com/maps?q=20.4972,77.7521&output=embed",
+    title: "Main Branch – Star Residency, Rajwadi Party Plot, Amroli, Surat",
+    owner: "Mocktail Team",
+    map: "https://www.google.com/maps?q=Amroli,Surat&output=embed",
   },
   {
-    title: "Chitra Chowk Jawahar Road Amravati",
-    owner: "Sayajibhai",
-    map: "https://www.google.com/maps?q=20.9374,77.7796&output=embed",
+    title: "Yogi Arcade – Srushti Row House, Amroli, Surat",
+    owner: "Mocktail Team",
+    map: "https://www.google.com/maps?q=Amroli,Surat&output=embed",
   },
   {
-    title: "Tukum Road Near Gurudwara Chandrapur",
-    owner: "Narendra",
-    map: "https://www.google.com/maps?q=19.9500,79.2950&output=embed",
+    title: "Palladium Mall, Yogi Chowk, Varachha, Surat",
+    owner: "Mocktail Team",
+    map: "https://www.google.com/maps?q=Yogi+Chowk,Varachha,Surat&output=embed",
   },
   {
-    title: "New Market Area",
-    owner: "Ramesh",
-    map: "https://www.google.com/maps?q=21.1458,79.0882&output=embed",
+    title: "Escon Residency, ABC Circle, Mota Varachha, Surat",
+    owner: "Mocktail Team",
+    map: "https://www.google.com/maps?q=Mota+Varachha,Surat&output=embed",
   },
   {
-    title: "New Market Area",
-    owner: "Ramesh",
-    map: "https://www.google.com/maps?q=21.1458,79.0882&output=embed",
+    title: "Silvassa Twin Tower, Mota Varachha, Surat",
+    owner: "Mocktail Team",
+    map: "https://www.google.com/maps?q=Mota+Varachha,Surat&output=embed",
   },
   {
-    title: "New Market Area",
-    owner: "Ramesh",
-    map: "https://www.google.com/maps?q=21.1458,79.0882&output=embed",
+    title: "Paliyad Road, Botad",
+    owner: "Mocktail Team",
+    map: "https://www.google.com/maps?q=Botad,Gujarat&output=embed",
   },
   {
-    title: "New Market Area",
-    owner: "Ramesh",
-    map: "https://www.google.com/maps?q=21.1458,79.0882&output=embed",
+    title: "Gadhada Road, Botad",
+    owner: "Mocktail Team",
+    map: "https://www.google.com/maps?q=Gadhada+Road,Botad&output=embed",
   },
-
+  {
+    title: "New Bus Stand Area, Amreli",
+    owner: "Mocktail Team",
+    map: "https://www.google.com/maps?q=Amreli,Gujarat&output=embed",
+  },
 ];
 
 function OurLocations() {

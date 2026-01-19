@@ -6,6 +6,7 @@ import Footer from './component/Footer'
 import Service from './component/Service'
 import Process from './component/Process'
 import AboutUs from './component/Aboute'
+import WhyChooseFranchise from './component/WhyChooseFranchise'
 import Certificate from './component/Certificate'
 import ROISection from './component/ROISection'
 import ROIProjection from './component/ROIProjection'
@@ -29,6 +30,7 @@ function App() {
       <section id="services"><Service /></section>
       <section id="process"><Process /></section>
       <section id="about"><AboutUs /></section>
+      <section id="about"><WhyChooseFranchise /></section>
       <section id="certificate"><Certificate /></section>
       <section id="roi"><ROISection /></section>
       <section id="roi-projection"><ROIProjection /></section>

@@ -27,7 +27,7 @@ function Footer() {
           Kamrej, 394190 Surat, Gujarat, India.
         </p>
         <p className="footer-text mt-4" style={{color: "var(--color-w-2)"}}>
-          83474 63055 | 97271 51653 | 88664 43220
+          84694 64739
         </p>
 
         <div className="flex justify-center gap-4 mt-10 ">

@@ -25,10 +25,9 @@ function AboutUs() {
       ref={sectionRef}
       className="py-24 overflow-hidden"
     >
-
       <div className="text-center section-header mb-16">
-        <h2 className="text-4xl font-bold mb-2">Aboute Us</h2>
-        <p>We deliver reliable, customer-focused solutions tailored to business needs.</p>
+        <h2 className="text-4xl font-bold mb-2">About Us</h2>
+        <p>Fresh product. Same taste. Strong brand recall.</p>
       </div>
 
       <div className="max-w-7xl mx-auto px-6">
@@ -38,7 +37,7 @@ function AboutUs() {
           <div className={`about-left ${visible ? "about-left-show" : ""}`}>
             <img
               src="https://notica.in/botanica.risingbamboo.com/drinks-01/assets/About-Cert/about_shop.png"
-              alt="About Notica"
+              alt="Mocktail Soda & Ice Cream Outlet"
               className="mx-auto"
             />
           </div>
@@ -46,36 +45,34 @@ function AboutUs() {
           {/* RIGHT CONTENT */}
           <div className={`about-right ${visible ? "about-right-show" : ""}`}>
             <p className="leading-7 mb-8">
-              <strong>Surat Food And Beverages</strong> is a leading innovator in
-              high-quality flavors for the soft drink industry. Based in Surat,
-              we specialize in crafting mouth-watering soda flavors and
-              milkshakes that delight customers globally.
+              <strong>Mocktail Soda & Ice Cream</strong> was founded in 2015 with a clear vision —
+              Indian taste combined with a global beverage experience.
             </p>
 
             <ul className="space-y-4">
               <li className="about-list">
-                <RiCheckDoubleLine size={20} style={{color: "var(--color-primary)"}} />
-                Premium soft drink flavor innovations
+                <RiCheckDoubleLine size={20} style={{ color: "var(--color-primary)" }} />
+                Strong presence across Gujarat with multiple outlets
               </li>
               <li className="about-list">
-                <RiCheckDoubleLine size={20} style={{color: "var(--color-primary)"}} />
-                Vision to lead niche beverage markets
+                <RiCheckDoubleLine size={20} style={{ color: "var(--color-primary)" }} />
+                Surat – 8 outlets, Botad – 2 outlets, Amreli – 1 outlet
               </li>
               <li className="about-list">
-                <RiCheckDoubleLine size={20} style={{color: "var(--color-primary)"}} />
-                Setting new standards in quality & taste
+                <RiCheckDoubleLine size={20} style={{ color: "var(--color-primary)" }} />
+                Consistent taste and quality across every outlet
               </li>
               <li className="about-list">
-                <RiCheckDoubleLine size={20} style={{color: "var(--color-primary)"}} />
-                Surat-based with global ambitions
+                <RiCheckDoubleLine size={20} style={{ color: "var(--color-primary)" }} />
+                Fresh products with zero wastage policy
               </li>
               <li className="about-list">
-                <RiCheckDoubleLine size={20} style={{color: "var(--color-primary)"}} />
-                Robust marketing and supply chain team
+                <RiCheckDoubleLine size={20} style={{ color: "var(--color-primary)" }} />
+                No harmful chemicals used in any product
               </li>
               <li className="about-list">
-                <RiCheckDoubleLine size={20} style={{color: "var(--color-primary)"}} />
-                Growth driven by a franchise-first model
+                <RiCheckDoubleLine size={20} style={{ color: "var(--color-primary)" }} />
+                Affordable pricing with strong customer trust
               </li>
             </ul>
           </div>
