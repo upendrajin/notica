@@ -40,8 +40,8 @@ const Header = () => {
             </nav>
 
             <div className="flex items-center gap-3">
-              <a href="#" className="social-icon hidden md:flex"><FaFacebookF /></a>
-              <a href="#" className="social-icon hidden md:flex"><FaInstagram /></a>
+              <a href="https://www.facebook.com/share/181UtAbQWR/" target="_blank" className="social-icon hidden md:flex"><FaFacebookF /></a>
+              <a className="social-icon hidden md:flex" href="https://www.instagram.com/mocktail.in?igsh=MWl5Z3dlbmRrczlpeQ==" target="_blank"><FaInstagram /></a>
 
               <button
                 className="md:hidden text-white text-xl"
@@ -87,8 +87,12 @@ const Header = () => {
 
 
           <div className="flex gap-4 px-6 mt-8">
-            <a className="social-icon" href="#"><FaFacebookF /></a>
-            <a className="social-icon" href="#"><FaInstagram /></a>
+            <a href="https://www.facebook.com/share/181UtAbQWR/" target="_blank" className="social-icon">
+              <FaFacebookF />
+            </a>
+            <a href="https://www.instagram.com/mocktail.in?igsh=MWl5Z3dlbmRrczlpeQ==" className="social-icon" target="_blank" >
+              <FaInstagram />
+            </a>
           </div>
         </div>
       </div>

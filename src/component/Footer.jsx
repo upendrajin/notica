@@ -15,26 +15,25 @@ function Footer() {
           className="mx-auto h-24 mb-10"
         />
 
-        <p className="text-normal font-medium mb-6" style={{color: "var(--color-w-1)"}}>
+        <p className="text-normal font-medium mb-6" style={{ color: "var(--color-w-1)" }}>
           Surat Food N Beverage Pvt. Ltd.
         </p>
 
-        <p className="footer-text" style={{color: "var(--color-w-2)"}}>
-          Plot No. 15, Block No. 158, Survey No. 152, Liberty Industrial Park,
-          Bhada,
+        <p className="footer-text" style={{ color: "var(--color-w-2)" }}>
+          shop_17,star residency rajvadi party plot, Sweet Home Society
         </p>
-        <p className="footer-text" style={{color: "var(--color-w-2)"}}>
-          Kamrej, 394190 Surat, Gujarat, India.
+        <p className="footer-text" style={{ color: "var(--color-w-2)" }}>
+          Amroli, Surat, Gujarat 394107
         </p>
-        <p className="footer-text mt-4" style={{color: "var(--color-w-2)"}}>
+        <p className="footer-text mt-4" style={{ color: "var(--color-w-2)" }}>
           84694 64739
         </p>
 
         <div className="flex justify-center gap-4 mt-10 ">
-          <a href="#" className="footer-social">
+          <a href="https://www.facebook.com/share/181UtAbQWR/" target="_blank" className="footer-social">
             <FaFacebookF />
           </a>
-          <a href="#" className="footer-social">
+          <a href="https://www.instagram.com/mocktail.in?igsh=MWl5Z3dlbmRrczlpeQ==" target="_blank" className="footer-social">
             <FaInstagram />
           </a>
         </div>

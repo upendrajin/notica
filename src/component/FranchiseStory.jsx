@@ -5,25 +5,30 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
+import video1 from '../assets/videos/1st.mp4'
+import video2 from '../assets/videos/2st.mp4'
+import video3 from '../assets/videos/3st.mp4'
+import video4 from '../assets/videos/4st.mp4'
+
 const videos = [
     {
-        src: "https://www.w3schools.com/html/mov_bbb.mp4",
+        src: video1,
         caption: "Experience our unique soda-making process.",
     },
     {
-        src: "https://www.w3schools.com/html/movie.mp4",
+        src: video2,
         caption: "Become part of our growing franchise community.",
     },
     {
-        src: "https://www.w3schools.com/html/mov_bbb.mp4",
+        src: video3,
         caption: "Experience our unique soda-making process.",
     },
+    // {
+    //     src: "https://www.w3schools.com/html/movie.mp4",
+    //     caption: "Become part of our growing franchise community.",
+    // },
     {
-        src: "https://www.w3schools.com/html/movie.mp4",
-        caption: "Become part of our growing franchise community.",
-    },
-    {
-        src: "https://www.w3schools.com/html/mov_bbb.mp4",
+        src: video4,
         caption: "Experience our unique soda-making process.",
     },
 ];
@@ -98,9 +103,9 @@ function FranchiseStory() {
                                     />
                                 </div>
 
-                                <p className="reel-caption">
+                                {/* <p className="reel-caption">
                                     {item.caption}
-                                </p>
+                                </p> */}
                             </div>
                         </SwiperSlide>
 
