@@ -113,7 +113,7 @@ const services = [
 function Service() {
   return (
     <section className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2 md:px-6">
 
         {/* HEADER */}
         <div className="text-center section-header mb-16">

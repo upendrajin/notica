@@ -59,7 +59,7 @@ function FranchiseStory() {
             className={`pt-24 overflow-hidden transition-all duration-700 ${visible ? "story-visible" : "opacity-0 translate-y-16"
                 }`}
         >
-            <div className="max-w-7xl mx-auto px-6">
+            <div className="max-w-7xl mx-auto px-2 md:px-6">
 
                 <div className="text-center section-header mb-12">
                     <h2 className="text-4xl font-bold mb-2">Our Soda Franchise Story</h2>

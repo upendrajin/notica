@@ -111,7 +111,7 @@ function OwnerTraining() {
         visible ? "training-visible" : "opacity-0 translate-y-16"
       }`}
     >
-      <div className="max-w-7xl px-6 mx-auto">
+      <div className="max-w-7xl px-2 md:px-6 mx-auto">
 
         <div className="text-center section-header">
           <h2 className="text-4xl font-bold mb-2">Training</h2>

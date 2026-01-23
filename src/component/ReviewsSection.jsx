@@ -55,7 +55,7 @@ function ReviewsSection() {
         visible ? "review-visible" : "opacity-0 translate-y-16"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2 md:px-6">
 
         <div className="bg-white rounded-xl p-8 md:p-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 

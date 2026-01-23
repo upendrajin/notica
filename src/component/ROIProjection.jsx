@@ -54,7 +54,7 @@ function ROIProjection() {
 
   return (
     <section ref={sectionRef} className="bg-white py-24 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2 md:px-6">
 
         <div className="text-center section-header mb-16">
           <h2 className="text-4xl font-bold mb-2">ROI Projection</h2>

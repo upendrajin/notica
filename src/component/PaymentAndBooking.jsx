@@ -43,7 +43,7 @@ function PaymentAndBooking() {
       className={`py-24 transition-all duration-700 ${visible ? "pay-visible" : "opacity-0 translate-y-16"
         }`}
     >
-      <div className="max-w-7xl mx-auto px-6 space-y-24">
+      <div className="max-w-7xl mx-auto px-2 md:px-6 space-y-24">
 
         <div>
           <div className="text-center section-header mb-8">

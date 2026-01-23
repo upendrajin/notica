@@ -7,7 +7,7 @@ function Footer() {
 
       <div className="web-wave"></div>
 
-      <div className="max-w-5xl mx-auto px-6 pt-20 pb-10 text-center">
+      <div className="max-w-5xl mx-auto px-2 md:px-6 pt-20 pb-10 text-center">
 
         <img
           src="/logo.png"

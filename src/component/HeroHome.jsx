@@ -102,7 +102,7 @@ function HeroHome() {
 
   return (
     <section className="hero-home min-h-screen relative overflow-hidden flex items-center pt-25 lg:p-0">
-      <div className="max-w-7xl mx-auto px-6 w-full relative z-10">
+      <div className="max-w-7xl mx-auto px-2 md:px-6 w-full relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-0">
 
           {/* TEXT */}

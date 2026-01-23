@@ -30,7 +30,7 @@ function CreateReelSection() {
     >
       <div className="web-wave reel-wave-top"></div>
 
-      <div className="max-w-4xl mx-auto px-6 text-center relative z-10">
+      <div className="max-w-4xl mx-auto px-2 md:px-6 text-center relative z-10">
 
         <div className="text-center section-header-2 mb-6">
           <h2 className="text-4xl font-bold mb-2"> Create a Refreshing Reel!</h2>

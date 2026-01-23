@@ -22,7 +22,7 @@ const Header = () => {
           ${scrolled ? "bg-header text-white" : "bg-transparent"}
         `}
       >
-        <div className="max-w-7xl mx-auto px-6">
+        <div className="max-w-7xl mx-auto px-2 md:px-6">
           <div className="flex items-center justify-between h-[78px]">
 
             <img

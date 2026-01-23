@@ -119,7 +119,7 @@ function ApplyNow() {
         visible ? "apply-visible" : "opacity-0 translate-y-16"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-2 md:px-6">
 
         {/* HEADER */}
         <div className="text-center mb-14">

@@ -630,7 +630,7 @@
 .reel-wrapper {
   width: 100%;
   max-width: 320px;
-  aspect-ratio: 7 / 12;
+  aspect-ratio: 9 / 16;
   overflow: hidden;
   border-radius: 18px;
   margin: 0 auto;

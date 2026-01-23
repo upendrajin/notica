@@ -76,7 +76,7 @@ function OurLocations() {
     >
       <div className="web-wave"></div>
 
-      <div className="max-w-7xl mx-auto px-6 relative z-10">
+      <div className="max-w-7xl mx-auto px-2 md:px-6 relative z-10">
 
         <div className="text-center section-header mb-16">
           <h2 className="text-4xl font-bold mb-2">Our Locations</h2>

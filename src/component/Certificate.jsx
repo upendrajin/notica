@@ -49,7 +49,7 @@ function Certificate() {
         <p>We are certified to deliver trusted and industry-compliant services.</p>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2 md:px-6">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-12 items-center justify-items-center">
           {certifications.map((item, index) => (
             <div key={index} className="cert-box">
