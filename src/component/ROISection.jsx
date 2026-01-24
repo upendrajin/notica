@@ -94,6 +94,7 @@
 
 
 import React, { useEffect, useRef, useState } from "react";
+import roiImg from "../assets/roi-image.jpg";
 
 function ROISection() {
   const sectionRef = useRef(null);
@@ -135,7 +136,8 @@ function ROISection() {
           >
             <div className="ROI-image">
               <img
-                src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03"
+                src={roiImg}
+                // src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03"
                 alt="ROI Drinks"
                 className="w-full h-full object-cover block"
               />

@@ -1,9 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
+import machine from "../assets/soda-machine.jpg"
 
 const products = [
   {
     title: "14+2 Soda Fountain Machine",
-    img: "https://notica.in/botanica.risingbamboo.com/drinks-01/assets/Services/FountainMachine.webp",
+    img: machine,
   },
   {
     title: "Fridge vertical (300 Ltr)",

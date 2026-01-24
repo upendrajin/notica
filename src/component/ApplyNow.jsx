@@ -135,7 +135,7 @@ function ApplyNow() {
           </p>
 
           <div className="price-zoom text-5xl md:text-6xl text-green-600 font-black mb-4">
-            ₹9,00,000 – ₹10,00,000<span className="text-xl align-top">*</span>
+            ₹9,00,000<span className="text-xl">*</span>
           </div>
 
           <div className="text-center section-header pb-0">

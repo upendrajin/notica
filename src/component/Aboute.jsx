@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { RiCheckDoubleLine } from "react-icons/ri";
+import moacktailStore from "../assets/moacktail-shop.png";
 
 function AboutUs() {
   const sectionRef = useRef(null);
@@ -36,7 +37,7 @@ function AboutUs() {
           {/* LEFT IMAGE */}
           <div className={`about-left ${visible ? "about-left-show" : ""}`}>
             <img
-              src="https://notica.in/botanica.risingbamboo.com/drinks-01/assets/About-Cert/about_shop.png"
+              src={moacktailStore}
               alt="Mocktail Soda & Ice Cream Outlet"
               className="mx-auto"
             />

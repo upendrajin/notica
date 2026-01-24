@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 import { IoCallOutline } from "react-icons/io5";
-
+import suportGirl from "../assets/support.png";
 
 function Help() {
 
@@ -41,7 +41,7 @@ function Help() {
                     >
                         <div className="ROI-image ">
                             <img
-                                src="https://notica.in/botanica.risingbamboo.com/drinks-01/assets/help/help.webp"
+                                src={suportGirl}
                                 alt="ROI Drinks"
                                 className="w-full h-full object-cover block"
                             />

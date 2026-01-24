@@ -126,6 +126,7 @@
 // export default Process;
 
 import React, { useEffect, useRef, useState } from "react";
+import mocktail from "../assets/mocktail.png";
 
 const leftPhases = [
     {
@@ -227,7 +228,7 @@ function Process() {
                     {/* CENTER IMAGE */}
                     <div className="flex justify-center order-1 lg:order-2">
                         <img
-                            src="https://notica.in/botanica.risingbamboo.com/wp-content/uploads/2024/10/juice-9-2.png"
+                            src={mocktail}
                             className={`process-center-img ${
                                 isVisible ? "center-visible" : ""
                             }`}

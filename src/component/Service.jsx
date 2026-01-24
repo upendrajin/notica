@@ -86,27 +86,40 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
+import machine from "../assets/soda-machine.jpg"
+import chair from "../assets/store-chair.webp"
+import nightStore from "../assets/night-store.jpg"
 
 const services = [
   {
     title: "Brand License",
     desc: "Official brand licensing with complete rights to operate under the Mocktail Soda & Ice Cream brand.",
-    img: "https://notica.in/botanica.risingbamboo.com/drinks-01/assets/Services/FountainMachine.webp",
+    img: machine,
+  }, 
+  {
+    title: "5 Baby Chair, 10 adult chair",
+    desc: "Comfortable seating with cozy chairs and trendy outdoor stools for all ages.",
+    img: chair,
   },
   {
-    title: "Outlet Planning & Setup",
-    desc: "Location finalization, outlet layout planning, equipment, and furniture setup handled end-to-end.",
-    img: "https://notica.in/botanica.risingbamboo.com/drinks-01/assets/Services/fridge-photoroom.png",
+    title: "Interior Design ACP Sheet",
+    desc: "Relax in stylish ACP interiors, designed for comfort and great vibes.",
+    img: nightStore,
   },
   {
-    title: "Branding & Launch Support",
-    desc: "Complete branding, signage, supplier chain access, and grand opening marketing support.",
-    img: "https://notica.in/botanica.risingbamboo.com/drinks-01/assets/interior_design.webp",
+    title: "Brand License",
+    desc: "Official brand licensing with complete rights to operate under the Mocktail Soda & Ice Cream brand.",
+    img: machine,
+  }, 
+  {
+    title: "5 Baby Chair, 10 adult chair",
+    desc: "Comfortable seating with cozy chairs and trendy outdoor stools for all ages.",
+    img: chair,
   },
   {
-    title: "Ongoing Business Guidance",
-    desc: "Continuous operational support to ensure stable performance and scalable growth.",
-    img: "https://notica.in/botanica.risingbamboo.com/drinks-01/assets/interior_design.webp",
+    title: "Interior Design ACP Sheet",
+    desc: "Relax in stylish ACP interiors, designed for comfort and great vibes.",
+    img: nightStore,
   },
 ];
 
