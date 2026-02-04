@@ -58,7 +58,7 @@ function CreateReelSection() {
             className="inline-flex  items-center gap-3 bg-green-900 text-white px-6 py-3 rounded-full hover:bg-green-800 transition"
           >
             <FaInstagram />
-            notica3030
+            mocktail.in
           </a>
         </div>
 

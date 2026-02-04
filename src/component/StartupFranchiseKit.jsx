@@ -132,30 +132,42 @@ import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
+import machine from "../assets/soda-machine.png"
+import chair from "../assets/store-chair.webp"
+import nightStore from "../assets/night-store.png"
+import Fridge from "../assets/Fridge-vertical.png"
+import icecreamFridge from "../assets/icecream-fridge.png"
+import filter from "../assets/water-filter.png"
+import Counter from "../assets/counter.png"
+
 const kits = [
     {
-        title: "Machines & Equipment",
-        img: "https://images.unsplash.com/photo-1510626176961-4b57d4fbad03",
+        title: "14+2 Soda fountain machine",
+        img: machine,
     },
     {
-        title: "Customized Furniture Setup",
-        img: "https://images.unsplash.com/photo-1510626176961-4b57d4fbad03",
+        title: "Fridge vertical",
+        img: Fridge,
     },
     {
-        title: "Menu & Recipe System",
-        img: "https://images.unsplash.com/photo-1510626176961-4b57d4fbad03",
+        title: "Interior Design 300 to 350 sq.ft",
+        img: nightStore,
     },
     {
-        title: "Brand Identity Materials",
-        img: "https://images.unsplash.com/photo-1510626176961-4b57d4fbad03",
+        title: "5 baby chair & 10 Adult chair",
+        img: chair,
     },
     {
-        title: "Marketing Starter Pack",
-        img: "https://images.unsplash.com/photo-1510626176961-4b57d4fbad03",
+        title: "Ice cream freze",
+        img: icecreamFridge,
     },
     {
-        title: "Supplier Network Access",
-        img: "https://images.unsplash.com/photo-1510626176961-4b57d4fbad03",
+        title: "Interior ACP includes counter with drawer.",
+        img: Counter,
+    },
+    {
+        title: "20 litters Fillter",
+        img: filter,
     },
 ];
 

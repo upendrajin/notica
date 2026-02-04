@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { RiCheckDoubleLine } from "react-icons/ri";
-// import moacktailStore from "../assets/moacktail-shop.png";
-import moacktailStore from "../assets/moacktail-shop.jpeg";
+import moacktailStore from "../assets/moacktail-shop.png";
 
 function AboutUs() {
   const sectionRef = useRef(null);
@@ -36,10 +35,7 @@ function AboutUs() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
           {/* LEFT IMAGE */}
-          <div style={{
-            borderRadius: "30px",
-            overflow:"hidden"
-          }} className={`about-left  ${visible ? "about-left-show" : ""}`}>
+          <div className={`about-left ${visible ? "about-left-show" : ""}`}>
             <img
               src={moacktailStore}
               alt="Mocktail Soda & Ice Cream Outlet"

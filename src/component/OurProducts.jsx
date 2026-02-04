@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
-import machine from "../assets/soda-machine.jpg"
+import machine from "../assets/soda-machine.png"
+import Fridge from "../assets/Fridge-vertical.png"
+import TV from "../assets/tv.png"
 
 const products = [
   {
@@ -8,11 +10,11 @@ const products = [
   },
   {
     title: "Fridge vertical (300 Ltr)",
-    img: "https://notica.in/botanica.risingbamboo.com/drinks-01/assets/Services/fridge-photoroom.png",
+    img: Fridge,
   },
   {
     title: "TV Included",
-    img: "https://notica.in/botanica.risingbamboo.com/drinks-01/assets/Franchise-Kit/TV-1.webp",
+    img: TV,
   },
 ];
 

@@ -86,40 +86,49 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
-import machine from "../assets/soda-machine.jpg"
+import machine from "../assets/soda-machine.png"
 import chair from "../assets/store-chair.webp"
-import nightStore from "../assets/night-store.jpg"
+import nightStore from "../assets/night-store.png"
+import Fridge from "../assets/Fridge-vertical.png"
+import icecreamFridge from "../assets/icecream-fridge.png"
+import filter from "../assets/water-filter.png"
+import Counter from "../assets/counter.png"
 
 const services = [
   {
-    title: "Brand License",
-    desc: "Official brand licensing with complete rights to operate under the Mocktail Soda & Ice Cream brand.",
-    img: machine,
-  }, 
-  {
-    title: "5 Baby Chair, 10 adult chair",
+    title: "5 baby chair & 10 Adult chair",
     desc: "Comfortable seating with cozy chairs and trendy outdoor stools for all ages.",
     img: chair,
   },
   {
-    title: "Interior Design ACP Sheet",
-    desc: "Relax in stylish ACP interiors, designed for comfort and great vibes.",
+    title: "Interior Design 300 to 350 sq.ft",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quas.",
     img: nightStore,
   },
   {
-    title: "Brand License",
-    desc: "Official brand licensing with complete rights to operate under the Mocktail Soda & Ice Cream brand.",
+    title: "14+2 Soda fountain machine",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quas.",
     img: machine,
-  }, 
-  {
-    title: "5 Baby Chair, 10 adult chair",
-    desc: "Comfortable seating with cozy chairs and trendy outdoor stools for all ages.",
-    img: chair,
   },
   {
-    title: "Interior Design ACP Sheet",
-    desc: "Relax in stylish ACP interiors, designed for comfort and great vibes.",
-    img: nightStore,
+    title: "Fridge vertical",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quas.",
+    img: Fridge,
+  },
+  {
+    title: "Interior ACP includes counter with drawer.",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quas.",
+    img: Counter,
+  },
+  {
+    title: "Ice cream freze",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quas.",
+    img: icecreamFridge,
+  },
+  {
+    title: "20 litters Fillter",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quas.",
+    img: filter,
   },
 ];
 
@@ -130,7 +139,7 @@ function Service() {
 
         {/* HEADER */}
         <div className="text-center section-header mb-16">
-          <h2 className="text-4xl font-bold mb-2">Our Services</h2>
+          <h2 className="text-4xl font-bold mb-2">Add On Services</h2>
           <p>
             End-to-end franchise ecosystem designed for fast start, stable operations,
             and scalable growth.
