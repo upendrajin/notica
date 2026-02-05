@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./ProductsPage.css";
 
 const categories = [
   { id: "icemojito", label: "Ice & Mojito", icon: "https://www.notica.in/botanica.risingbamboo.com/drinks-01/assets/CategoryImage/Ice-Mojhito.webp" },
