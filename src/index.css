@@ -6,15 +6,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-:root {
-  --color-primary: #365c00;      
-  --color-primary: #ed3338;      
+:root {    
   --color-primary: #1B211A;      
-  /* --color-secondary: #0f172a;    */
   --color-accent: #22c55e;   
 
   --bg-m: #eef9e4;
-  /* --bg-m: #180000; */
   --bg-m: #1B211A;
   --bg-sec: #70c000; 
 

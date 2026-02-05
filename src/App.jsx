@@ -82,6 +82,7 @@ import PaymentAndBooking from "./component/PaymentAndBooking";
 
 // PAGES
 import ProductsPage from "./ProductsPage";
+import OurProducts from "./component/OurProducts";
 
 function HomePage() {
   return (
@@ -100,6 +101,7 @@ function HomePage() {
       <section id="training"><OwnerTraining /></section>
       <section id="help"><Help /></section>
       <section id="terms"><ApplyNow /></section>
+      <section id="product"><OurProducts /></section>
       <section id="story"><FranchiseStory /></section>
       <section id="locations"><OurLocations /></section>
       <section id="reviews"><ReviewsSection /></section>
